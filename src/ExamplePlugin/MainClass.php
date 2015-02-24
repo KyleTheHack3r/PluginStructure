@@ -22,3 +22,4 @@ class MainClass extends PluginBase implements Listener{
 	public function onDisable(){
 		$this->getLogger()->info(TextFormat::DARK_RED . "Plugin has been disabled.");
 	}
+}
